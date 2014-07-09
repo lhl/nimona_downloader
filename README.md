@@ -10,3 +10,5 @@ Useful if you want to pack a CBZ for a long flight...
 For general comic downloading, see:
 * https://github.com/wummel/dosage
 * https://github.com/nickklosterman/BashScripts/tree/master/WebComics
+
+MIT Licensed. No warranties, blah blah blah.
