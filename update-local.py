@@ -55,9 +55,10 @@ for i in range(next_node, last_node+1):
   logging.info('GET node: %s' % next_node)
   r = requests.get('http://gingerhaze.com/node/%s' % next_node)
 
-  # Exit once we reach the end
+  # Skip errors
   if not r.ok:
     logging.info('SKIP no node found...')
+    continue
   
   # Get Image
   p = html.fromstring(r.text)
